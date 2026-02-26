@@ -123,7 +123,7 @@ gdjs.MainCode.GDcursorObjects5= [];
 
 
 gdjs.MainCode.mapOfGDgdjs_9546MainCode_9546GDPositionPlaceholderObjects3Objects = Hashtable.newFrom({"PositionPlaceholder": gdjs.MainCode.GDPositionPlaceholderObjects3});
-gdjs.MainCode.asyncCallback13104196 = function (runtimeScene, asyncObjectsList) {
+gdjs.MainCode.asyncCallback9808140 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.MainCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("boneca"), gdjs.MainCode.GDbonecaObjects5);
 
@@ -208,7 +208,7 @@ for (const obj of gdjs.MainCode.GDpetecaObjects3) asyncObjectsList.addObject("pe
 for (const obj of gdjs.MainCode.GDpinheiroObjects3) asyncObjectsList.addObject("pinheiro", obj);
 for (const obj of gdjs.MainCode.GDsenhoraObjects3) asyncObjectsList.addObject("senhora", obj);
 for (const obj of gdjs.MainCode.GDtelhadoObjects3) asyncObjectsList.addObject("telhado", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.MainCode.asyncCallback13104196(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.MainCode.asyncCallback9808140(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -755,7 +755,7 @@ for(var i = 0, len = gdjs.MainCode.GDpinheiroObjects2.length ;i < len;++i) {
 }
 
 
-};gdjs.MainCode.asyncCallback13008236 = function (runtimeScene, asyncObjectsList) {
+};gdjs.MainCode.asyncCallback9823620 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.MainCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("boneca"), gdjs.MainCode.GDbonecaObjects2);
 
@@ -844,7 +844,7 @@ for (const obj of gdjs.MainCode.GDpetecaObjects1) asyncObjectsList.addObject("pe
 for (const obj of gdjs.MainCode.GDpinheiroObjects1) asyncObjectsList.addObject("pinheiro", obj);
 for (const obj of gdjs.MainCode.GDsenhoraObjects1) asyncObjectsList.addObject("senhora", obj);
 for (const obj of gdjs.MainCode.GDtelhadoObjects1) asyncObjectsList.addObject("telhado", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.8), (runtimeScene) => (gdjs.MainCode.asyncCallback13008236(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.8), (runtimeScene) => (gdjs.MainCode.asyncCallback9823620(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1498,7 +1498,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfEmptyGDbonecaObjectsEmptyGDcanecaObjectsEmptyGDescolaObjectsEmptyGDescovaObjectsEmptyGDtelhadoObjectsEmptyGDpalhacoObjectsEmptyGDpetecaObjectsEmptyGDfutebolObjectsEmptyGDminhocaObjectsEmptyGDsenhoraObjectsEmptyGDdinheiroObjectsEmptyGDpinheiroObjects) == 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13142620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9809092);
 }
 }
 if (isConditionTrue_0) {
